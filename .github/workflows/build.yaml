@@ -18,7 +18,7 @@ jobs:
       - name: Install Massdriver CLI
         uses: massdriver-cloud/actions@v4
       - name: Build Bundle
-        uses: massdriver-cloud/actions/bundle_build@v4
+        uses: massdriver-cloud/actions/bundle_build@v4.4.0
       - name: ls -la
         run: ls -la /home/runner/work/md-validate-test/md-validate-test
       - name: Validate params schema
